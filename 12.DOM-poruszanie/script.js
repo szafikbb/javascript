@@ -38,7 +38,6 @@ buttons.forEach(button => {
   
   //zad5
   
-  //Zadanie 5
 const colors = document.querySelectorAll("#ex5 div");
 const elements = [...document.querySelectorAll('#ex5 li')];
 
