@@ -37,7 +37,7 @@ Person.prototype.newDish = function (name){
   this.dish.push(name);
 }
 
-person2.newDish("Tomato soup");
+person2.newDish("FishNChips");
 person2.showDishes();
 
 
