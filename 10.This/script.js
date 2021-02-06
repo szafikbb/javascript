@@ -8,8 +8,8 @@ function Person(name, surname, age, country, city){
   this.city = city
 }
 
-person1 = new Person('Mateusz', 'Sznober', 21, 'Polska', 'Kraków');
-person2 = new Person('Jan', 'Kowalski', 26, 'Polska', 'Katowice');
+person1 = new Person('Kacper', 'Scharfenberg', 21, 'Polska', 'Bielsko');
+person2 = new Person('Adam', 'Nowak', 20, 'Polska', 'Czechowice');
 
 Person.prototype.info = function(){
   console.log(this.name, this.surname, this.age, this.country, this.city);
